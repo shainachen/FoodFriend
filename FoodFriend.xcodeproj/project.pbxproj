@@ -54,6 +54,9 @@
 		26AEAB99235B94FB00020599 /* FoodFriend */ = {
 			isa = PBXGroup;
 			children = (
+				26AEABAE235B98DE00020599 /* Controller */,
+				26AEABAD235B98D300020599 /* View */,
+				26AEABAC235B98CC00020599 /* Model */,
 				26AEAB9A235B94FB00020599 /* AppDelegate.swift */,
 				26AEAB9C235B94FB00020599 /* ViewController.swift */,
 				26AEAB9E235B94FB00020599 /* Main.storyboard */,
@@ -62,6 +65,51 @@
 				26AEABA6235B94FD00020599 /* Info.plist */,
 			);
 			path = FoodFriend;
+			sourceTree = "<group>";
+		};
+		26AEABAC235B98CC00020599 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26AEABAD235B98D300020599 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26AEABAE235B98DE00020599 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26AEABB1235B9A0200020599 /* Detailed Recipe VC */,
+				26AEABB0235B99B400020599 /* Recipes VC */,
+				26AEABAF235B99A800020599 /* Planning VC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		26AEABAF235B99A800020599 /* Planning VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Planning VC";
+			sourceTree = "<group>";
+		};
+		26AEABB0235B99B400020599 /* Recipes VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Recipes VC";
+			sourceTree = "<group>";
+		};
+		26AEABB1235B9A0200020599 /* Detailed Recipe VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Detailed Recipe VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
