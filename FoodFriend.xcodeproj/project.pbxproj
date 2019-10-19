@@ -84,6 +84,8 @@
 		26AEABAE235B98DE00020599 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				26AEABB3235BA33200020599 /* Signup VC */,
+				26AEABB2235BA32D00020599 /* Login VC */,
 				26AEABB1235B9A0200020599 /* Detailed Recipe VC */,
 				26AEABB0235B99B400020599 /* Recipes VC */,
 				26AEABAF235B99A800020599 /* Planning VC */,
@@ -110,6 +112,20 @@
 			children = (
 			);
 			path = "Detailed Recipe VC";
+			sourceTree = "<group>";
+		};
+		26AEABB2235BA32D00020599 /* Login VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login VC";
+			sourceTree = "<group>";
+		};
+		26AEABB3235BA33200020599 /* Signup VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Signup VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
