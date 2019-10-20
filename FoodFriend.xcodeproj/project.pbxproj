@@ -12,6 +12,8 @@
 		26AEABA0235B94FB00020599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AEAB9E235B94FB00020599 /* Main.storyboard */; };
 		26AEABA2235B94FD00020599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AEABA1235B94FD00020599 /* Assets.xcassets */; };
 		26AEABA5235B94FD00020599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AEABA3235B94FD00020599 /* LaunchScreen.storyboard */; };
+		26AEABB5235BAC5300020599 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26AEABB4235BAC5200020599 /* GoogleService-Info.plist */; };
+		E04527DA50D7DEBC8D343709 /* Pods_FoodFriend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28D432A4BBE4BE03DE1F376 /* Pods_FoodFriend.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		26AEABA1235B94FD00020599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AEABA4235B94FD00020599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26AEABA6235B94FD00020599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AEABB4235BAC5200020599 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A22D94551DC1189461CA46B1 /* Pods-FoodFriend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFriend.release.xcconfig"; path = "Target Support Files/Pods-FoodFriend/Pods-FoodFriend.release.xcconfig"; sourceTree = "<group>"; };
+		A28D432A4BBE4BE03DE1F376 /* Pods_FoodFriend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodFriend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67C625ADE61ADBF6372D316 /* Pods-FoodFriend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFriend.debug.xcconfig"; path = "Target Support Files/Pods-FoodFriend/Pods-FoodFriend.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04527DA50D7DEBC8D343709 /* Pods_FoodFriend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				26AEAB99235B94FB00020599 /* FoodFriend */,
 				26AEAB98235B94FB00020599 /* Products */,
+				FC9F2337248C16DF2F1DCF5F /* Pods */,
+				600240E360BD24EE9016014D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +71,7 @@
 				26AEAB9E235B94FB00020599 /* Main.storyboard */,
 				26AEABA1235B94FD00020599 /* Assets.xcassets */,
 				26AEABA3235B94FD00020599 /* LaunchScreen.storyboard */,
+				26AEABB4235BAC5200020599 /* GoogleService-Info.plist */,
 				26AEABA6235B94FD00020599 /* Info.plist */,
 			);
 			path = FoodFriend;
@@ -128,6 +138,23 @@
 			path = "Signup VC";
 			sourceTree = "<group>";
 		};
+		600240E360BD24EE9016014D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A28D432A4BBE4BE03DE1F376 /* Pods_FoodFriend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC9F2337248C16DF2F1DCF5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F67C625ADE61ADBF6372D316 /* Pods-FoodFriend.debug.xcconfig */,
+				A22D94551DC1189461CA46B1 /* Pods-FoodFriend.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AEABA9235B94FD00020599 /* Build configuration list for PBXNativeTarget "FoodFriend" */;
 			buildPhases = (
+				6CB0A8228D8847B8086A9A04 /* [CP] Check Pods Manifest.lock */,
 				26AEAB93235B94FA00020599 /* Sources */,
 				26AEAB94235B94FA00020599 /* Frameworks */,
 				26AEAB95235B94FA00020599 /* Resources */,
+				3139283F5C405D06B19BCCE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,10 +218,72 @@
 				26AEABA5235B94FD00020599 /* LaunchScreen.storyboard in Resources */,
 				26AEABA2235B94FD00020599 /* Assets.xcassets in Resources */,
 				26AEABA0235B94FB00020599 /* Main.storyboard in Resources */,
+				26AEABB5235BAC5300020599 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3139283F5C405D06B19BCCE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodFriend/Pods-FoodFriend-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodFriend/Pods-FoodFriend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CB0A8228D8847B8086A9A04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodFriend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26AEAB93235B94FA00020599 /* Sources */ = {
@@ -344,6 +435,7 @@
 		};
 		26AEABAA235B94FD00020599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67C625ADE61ADBF6372D316 /* Pods-FoodFriend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -361,6 +453,7 @@
 		};
 		26AEABAB235B94FD00020599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22D94551DC1189461CA46B1 /* Pods-FoodFriend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
